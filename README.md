@@ -3,16 +3,25 @@
 ### Please use the following template to add a ReadMe for your repo.
 
 ## 1. Project Title and Description
-    - Title: Provide a clear and concise title for your project.
-    - Description: Give a brief overview of what your project does and its purpose.
+    - Title: TicketKart App
+    - Description: Buying tickets for Concerts in any location in Canada.
 ## 2. Installation
-    - Dependencies: List any dependencies or prerequisites required to use your project.
-    - Installation Instructions: Provide step-by-step instructions on how to install and set up your project.
+    - Dependencies: Django, SQLite, and Visual Studio Code
+    - Installation Instructions: Download the Visual Studio Code app on our computer and pull the files from Git Hub.
+                                 Download an extension on vs code to look at the database Sqlite by SQLite writer.
+                                 Use the command "pip install Django" to install Django - a popular web framework for Python-related projects.
 ## 3. Usage
-    - Examples: Include examples or code snippets to demonstrate how to use your project.
-    - Configuration: Explain any configuration options or settings users might need to know about.
+    - Examples: To run the server use the command `python manage.py runserver` and follow the link or server provided to check how the website works.
+                Also, run the following commands:
+                pip install django-debug-toolbar
+                python -m pip install Pillow
+    - Configuration: For users, please make sure to install extensions- python, sqlite writer, Django.
 ## 4. Features
-    - List of Features: Outline the main features and functionalities of your project.
+    - List of Features: The main features of our project are that as we enter the home page, we can choose to either login or register by entering our username and password. 
+                        - The Authentication process of users using our platform, security.
+                        - Admin registration of Django helps to create venues, and concert events, update profiles, check users, update passwords, delete users, and setting 
+                          prices  etc.
+                        - Buying tickets for different concerts, number of tickets, choosing rows, proceeding payments 
 ## 5. Contributing
     - Guidelines: Explain how others can contribute to your project, including information on submitting bug reports, feature requests, or code contributions.
     - Code Style: If applicable, provide guidelines or references to your code style.
