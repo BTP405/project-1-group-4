@@ -7,9 +7,9 @@
     - Description: Buying tickets for Concerts in any location in Canada.
 ## 2. Installation
     - Dependencies: Django, SQLite, and Visual Studio Code
-    - Installation Instructions: Download the Visual Studio Code app on our computer and pull the files from Git Hub.
-                                 Download an extension on vs code to look at the database Sqlite by SQLite writer.
-                                 Use the command "pip install Django" to install Django - a popular web framework for Python-related projects.
+    - Installation Instructions: - Download the Visual Studio Code app on our computer and pull the files from Git Hub.
+                                 - Download an extension on vs code to look at the database Sqlite by SQLite writer.
+                                 - Use the command "pip install Django" to install Django - a popular web framework for Python-related projects.
 ## 3. Usage
     - Examples: To run the server use the command `python manage.py runserver` and follow the link or server provided to check how the website works.
                 Also, run the following commands:
@@ -21,13 +21,15 @@
                         - The Authentication process of users using our platform, security.
                         - Admin registration of Django helps to create venues, and concert events, update profiles, check users, update passwords, delete users, and setting 
                           prices  etc.
-                        - Buying tickets for different concerts, number of tickets, choosing rows, proceeding payments 
+                        - Buying tickets for different concerts, the number of tickets, choosing rows, proceeding payments, deleting items from cart, updating items from 
+                          the cart, changing balance in the card of the profile, showing balance in the card. 
 ## 5. Contributing
     - Guidelines: Explain how others can contribute to your project, including information on submitting bug reports, feature requests, or code contributions.
     - Code Style: If applicable, provide guidelines or references to your code style.
 ## 6. Credits
-    - Authors: List the authors or contributors of the project.
-    - Acknowledgments: Mention any individuals or resources that helped inspire or support your project.
+    - Authors: Sidhanth Sharma, Kumudhini Reddicherla, Srushti Patel.
+    - Acknowledgments: We had some of our seniors help us with using Django as it was new to us and organizing the code files and also Google has helped us fix bugs and 
+      errors.
 ## 7. License
     - License Information: Specify the license under which your project is distributed.
 ## 8. Additional Sections (Optional)
